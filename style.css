@@ -1,0 +1,179 @@
+body {
+    
+    padding: 0; 
+    margin: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+     
+}
+
+p {
+    font-size: 20px;
+
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block ;
+    background-color: #dba4ff;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background-color: #dba4ff;
+    background-repeat: repeat;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover ;
+    -moz-backgroud-size: cover;
+    -o-bacgroud-size: cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 40%, #000 100%);
+    background: linear-gradient(to bottom , rgba(0,0,0,0) 40%, #000 100%);
+
+
+}
+
+section.module.parallax-1{
+    background-image: url(friends.jpg);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    margin-top: 0;
+    z-index: 999;
+}
+
+header nav {
+    display: inline;
+
+}
+
+header nav ul {
+    display: inline;
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 5px;
+    font-size: 20px;    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header img {
+    display:inline;
+    width: 200px;
+    opacity: 100;
+}
+
+.banner {
+    width: 1903px;
+    height: 850px;
+}
+
+section>div:nth-child(0){
+    height: 1000px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+section.module.parallax-2{
+    background-image: url(Friends-9-1.webp);
+}
+
+section.module.parallax-3{
+    background-image: url(friends-reunion_f2wy.jpg);
+    height: 100px;
+}
+
+section.module.parallax-4{
+    background-image: url(esseaquijullia.webp);
+}
+
+section.module.parallax-5{
+    background-image: url(imgjogo.jpg);
+    height: 100px;
+}
+
+section.module.parallax h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+.logoInicio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+
+    display: inline-block; /* Faz o sublinhado acompanhar o tamanho do texto */
+    padding-bottom: 10px; /* Espaçamento entre o texto e a linha */
+    border-bottom: 2px solid #242424; /* Adiciona a linha abaixo do texto */
+}
